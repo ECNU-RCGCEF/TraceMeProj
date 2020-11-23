@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件包工具 on TraceMe | Traceability analysis for model evaluation</title>
+    <link>/ch/packages/</link>
+    <description>Recent content in 软件包工具 on TraceMe | Traceability analysis for model evaluation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; TraceMe 2020 </copyright>
+    
+	<atom:link href="/ch/packages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bechmarking analysis package</title>
+      <link>/ch/packages/package-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ch/packages/package-4/</guid>
+      <description>Introduction </description>
+    </item>
+    
+    <item>
+      <title>Data assimilation</title>
+      <link>/ch/packages/package-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ch/packages/package-3/</guid>
+      <description>Introduction </description>
+    </item>
+    
+    <item>
+      <title>Multi-module analysis</title>
+      <link>/ch/packages/package-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ch/packages/package-2/</guid>
+      <description>Introduction </description>
+    </item>
+    
+    <item>
+      <title>SASU 方法</title>
+      <link>/ch/packages/package-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ch/packages/package-1/</guid>
+      <description>Introduction </description>
+    </item>
+    
+    <item>
+      <title>TraceMe package</title>
+      <link>/ch/packages/package-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ch/packages/package-5/</guid>
+      <description>Introduction </description>
+    </item>
+    
+  </channel>
+</rss>
