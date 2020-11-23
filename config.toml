@@ -1,0 +1,420 @@
+################################# Default configuration ###################
+#baseURL = "http://examplesite.org"
+title = "TraceMe | Traceability analysis for model evaluation"
+theme = "airspace"
+#themesDir = "../.."
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "30"
+# disqus short name
+disqusShortname = "TraceMe" # 
+# disable language
+disableLanguages = []
+
+################################# Outputs #################################
+# hugo outputs
+[outputs]
+home = ["HTML"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+page = "/"
+attributes = "media='screen'"
+
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+page = "/"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.min.css"
+page = "/"
+attributes = ""
+
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+page = "/"
+attributes = ""
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+page = "/"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+page = "/"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+page = "/"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/magnific-popup/magnific-popup.min.js"
+page = "/"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+page = "/"
+attributes = ""
+
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+page = "contact/"
+attributes = ""
+
+
+############################### widgets #################################
+
+[params.widgets]
+sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
+
+
+#################### default parameters ################################
+[params]
+logo = "images/traceme_logo.png"
+logo_width = "150px"
+# Meta data
+description = "This is meta description"
+author = "TraceMe group"
+# Contact Information
+mobile = ""
+email = "jzhou@stu.ecnu.edu.cn"
+location = ""
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # Your ID# search
+# multi-author support (if set to true, you must use an Array in the author field)
+multi_author = false
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Navigation get start button
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+
+# google map
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+  
+############################# social site ########################
+[[params.social]]
+icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+copyright = "&copy; TraceMe 2020 "
+
+
+######################### english navigation #############################
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "MIP"
+URL = "about"
+weight = 2
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "MIP"
+  name = "CMIP"
+  URL = "mip_cmip"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "MIP"
+  name = "LuMIP"
+  URL = "mip_lumip"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "MIP"
+  name = "C4MIP"
+  URL = "mip_c4mip"
+  weight = 3
+
+[[Languages.en.menu.main]]
+name = "Documents"
+URL = "blog"
+weight = 3
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Documents"
+  name = "TraceMe platform"
+  URL = "http://traceme.org.cn/"
+  weight = 1
+
+  [[Languages.en.menu.main]]
+  parent = "Documents"
+  name = "Workshop"
+  URL = "doc_workshop"
+  weight = 2
+
+  [[Languages.en.menu.main]]
+  parent = "Documents"
+  name = "Tutorials"
+  URL = "doc_tutorials"
+  weight = 3 
+
+  [[Languages.en.menu.main]]
+  parent = "Documents"
+  name = "Demo"
+  URL = "doc_demo"
+  weight = 4
+
+[[Languages.en.menu.main]]
+name = "packages"
+URL = "packages"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Publications"
+URL = "publications"
+weight = 5
+
+[[Languages.en.menu.main]]
+weight = 6
+name = "Dataset"
+hasChildren = true
+
+  [[Languages.en.menu.main]]
+  parent = "Dataset"
+  name = "Model data"
+  URL = "data_model"
+
+  [[Languages.en.menu.main]]
+  parent = "Dataset"
+  name = "Observation data"
+  URL = "data_obs"
+
+  
+[[Languages.en.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
+
+
+# footer menu
+# [[Languages.en.menu.footer]]
+#name = "About"
+#URL = "about"
+#weight = 1
+
+#[[Languages.en.menu.footer]]
+#name = "Project"
+#URL = "project"
+#weight = 2
+
+#[[Languages.en.menu.footer]]
+#name = "Service"
+#URL = "service"
+#weight = 3
+
+#[[Languages.en.menu.footer]]
+#name = "Pricing"
+#URL = "pricing"
+#weight = 4
+
+#[[Languages.en.menu.footer]]
+#name = "FAQ"
+#URL = "faq"
+#weight = 5
+
+#[[Languages.en.menu.footer]]
+#name = "Contact"
+#URL = "contact"
+#weight = 6
+
+################################ Chinese Language ########################
+[Languages.ch]
+languageName = "中文(简体)"
+languageCode = "en-us"
+contentDir = "content/chinese"
+weight = 1
+# copyright
+copyright = "&copy; TraceMe 2020 "
+
+
+######################### chinese navigation #############################
+# main menu
+[[Languages.ch.menu.main]]
+name = "主页"
+URL = "/"
+weight = 1
+
+[[Languages.ch.menu.main]]
+name = "模型比较项目(MIP)"
+URL = "about"
+weight = 2
+hasChildren = true
+
+  [[Languages.ch.menu.main]]
+  parent = "模型比较项目(MIP)"
+  name = "CMIP"
+  URL = "mip_cmip"
+  weight = 1
+
+  [[Languages.ch.menu.main]]
+  parent = "模型比较项目(MIP)"
+  name = "LuMIP"
+  URL = "mip_lumip"
+  weight = 2
+
+  [[Languages.ch.menu.main]]
+  parent = "模型比较项目(MIP)"
+  name = "C4MIP"
+  URL = "mip_c4mip"
+  weight = 3
+
+[[Languages.ch.menu.main]]
+name = "内容"
+URL = "blog"
+weight = 3
+hasChildren = true
+
+  [[Languages.ch.menu.main]]
+  parent = "内容"
+  name = "TraceMe平台"
+  URL = "http://traceme.org.cn/"
+  weight = 1
+
+  [[Languages.ch.menu.main]]
+  parent = "内容"
+  name = "研讨会"
+  URL = "doc_workshop"
+  weight = 2
+
+  [[Languages.ch.menu.main]]
+  parent = "内容"
+  name = "教程"
+  URL = "doc_tutorials"
+  weight = 3 
+
+  [[Languages.ch.menu.main]]
+  parent = "内容"
+  name = "示例（东亚季风区）"
+  URL = "doc_demo"
+  weight = 4
+
+[[Languages.ch.menu.main]]
+name = "程序工具"
+URL = "packages"
+weight = 4
+
+[[Languages.ch.menu.main]]
+name = "发表"
+URL = "publications"
+weight = 5
+
+[[Languages.ch.menu.main]]
+weight = 6
+name = "数据库"
+hasChildren = true
+
+  [[Languages.ch.menu.main]]
+  parent = "数据库"
+  name = "模型数据"
+  URL = "data_model"
+
+  [[Languages.ch.menu.main]]
+  parent = "数据库"
+  name = "观测数据"
+  URL = "data_obs"
+
+  
+[[Languages.ch.menu.main]]
+name = "联系方式"
+URL = "contact"
+weight = 7
+
+
+# footer menu
+# [[Languages.ch.menu.footer]]
+#name = "About"
+#URL = "about"
+#weight = 1
+
+#[[Languages.ch.menu.footer]]
+#name = "Project"
+#URL = "project"
+#weight = 2
+
+#[[Languages.ch.menu.footer]]
+#name = "Service"
+#URL = "service"
+#weight = 3
+
+#[[Languages.ch.menu.footer]]
+#name = "Pricing"
+#URL = "pricing"
+#weight = 4
+
+#[[Languages.ch.menu.footer]]
+#name = "FAQ"
+#URL = "faq"
+#weight = 5
+
+#[[Languages.ch.menu.footer]]
+#name = "Contact"
+#URL = "contact"
+#weight = 6

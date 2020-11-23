@@ -1,0 +1,30 @@
+########################### about service #############################
+about:
+  enable : true
+  title : "About East Asian Monsoon Region"
+  content : "East Asian Monsoon Region ... (Figure . East Asian Monsoons Region (Yu et al.,2014. PNAS))"
+  image : "images/documents/figure_EAMR.jpg"
+
+############################# results ###############################
+results:
+  enable : true
+  title : "Relational results"
+
+########################## featured service ############################
+featured_service:
+  enable : true
+  title : "Main results"
+  description : "abc"
+  service_item:
+    # Main results item loop
+    - name : "Fig. 1. "
+      image : "images/documents/figure_EAMR.jpg"
+      color : "primary" #"primary-dark, primary-darker
+      content : "abc"
+
+    # Main results item loop
+    - name : "Fig. 2."
+      image : "images/documents/figure_EAMR.jpg"
+      color : "primary-dark" #"primary-dark, primary-darker
+      content : "abc"      
+  

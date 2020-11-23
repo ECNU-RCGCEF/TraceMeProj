@@ -1,0 +1,21 @@
+################################ tutorial ################################
+tutorial:
+  enable : true
+  tutorial_table:
+    # pricing table loop
+    - name : "Basic"
+      price: "$99"
+      content : "Perfect for single freelancers who work by themselves"
+      link : "Tutorial_1"
+      services:
+        - Unlimited agents
+        - 10 PSD Design
+        - HTML5 Markup
+        - Basic SEO
+        - Email Marketing
+        - 24/7 Tech Support
+        
+############################# call to action #################################
+cta:
+  enable : false
+  # call to action content comes from "data/*/homepage.yml"
