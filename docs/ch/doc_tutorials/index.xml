@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TraceMe教程 on TraceMe | Traceability analysis for model evaluation</title>
-    <link>/ch/doc_tutorials/</link>
+    <link>https://ecnu-rcgcef.github.io/TraceMeProj/ch/doc_tutorials/</link>
     <description>Recent content in TraceMe教程 on TraceMe | Traceability analysis for model evaluation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; TraceMe 2020 </copyright>
     
-	<atom:link href="/ch/doc_tutorials/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ecnu-rcgcef.github.io/TraceMeProj/ch/doc_tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorial-1: TraceMe 1.0.0</title>
-      <link>/ch/doc_tutorials/tutorial-1/</link>
+      <link>https://ecnu-rcgcef.github.io/TraceMeProj/ch/doc_tutorials/tutorial-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ch/doc_tutorials/tutorial-1/</guid>
+      <guid>https://ecnu-rcgcef.github.io/TraceMeProj/ch/doc_tutorials/tutorial-1/</guid>
       <description>Contents (How to use?) </description>
     </item>
     

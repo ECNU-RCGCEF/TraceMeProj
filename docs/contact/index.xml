@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drop Us A Note on TraceMe | Traceability analysis for model evaluation</title>
-    <link>/contact/</link>
+    <link>https://ecnu-rcgcef.github.io/TraceMeProj/contact/</link>
     <description>Recent content in Drop Us A Note on TraceMe | Traceability analysis for model evaluation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; TraceMe 2020 </copyright>
     
-	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ecnu-rcgcef.github.io/TraceMeProj/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

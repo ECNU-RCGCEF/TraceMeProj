@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C4MIP on TraceMe | Traceability analysis for model evaluation</title>
-    <link>/ch/mip_c4mip/</link>
+    <link>https://ecnu-rcgcef.github.io/TraceMeProj/ch/mip_c4mip/</link>
     <description>Recent content in C4MIP on TraceMe | Traceability analysis for model evaluation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; TraceMe 2020 </copyright>
     <lastBuildDate>Mon, 23 Mar 2020 13:05:29 +0600</lastBuildDate>
     
-	<atom:link href="/ch/mip_c4mip/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ecnu-rcgcef.github.io/TraceMeProj/ch/mip_c4mip/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
