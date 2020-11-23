@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-#baseURL = "https://ecnu-rcgcef.github.io/TraceMeProj/"
+baseURL = "https://ecnu-rcgcef.github.io/TraceMeProj/"
 title = "TraceMe | Traceability analysis for model evaluation"
 theme = "airspace"
 #themesDir = "../.."
