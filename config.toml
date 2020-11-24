@@ -165,7 +165,7 @@ copyright = "&copy; TraceMe 2020 "
 # main menu
 [[Languages.en.menu.main]]
 name = "Home"
-URL = "/"
+URL = ""
 weight = 1
 
 [[Languages.en.menu.main]]
@@ -299,7 +299,7 @@ copyright = "&copy; TraceMe 2020 "
 # main menu
 [[Languages.ch.menu.main]]
 name = "主页"
-URL = "/"
+URL = ""
 weight = 1
 
 [[Languages.ch.menu.main]]
