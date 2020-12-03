@@ -18,13 +18,18 @@ featured_service:
   service_item:
     # Main results item loop
     - name : "Fig. 1. "
-      image : "images/documents/figure_EAMR.jpg"
+      image : "images/documents/figure_EAMR_GPP_framework.png"
       color : "primary" #"primary-dark, primary-darker
       content : "abc"
 
     # Main results item loop
     - name : "Fig. 2."
-      image : "images/documents/figure_EAMR.jpg"
+      image : "images/documents/figure_global_distribution_multimodel_mean_GPP.png"
       color : "primary-dark" #"primary-dark, primary-darker
-      content : "abc"      
+      content : "abc"   
+
+    - name : "Fig. 3."
+      image : "images/documents/figure_intermodel_variability_GPP.png"
+      color : "primary-darker" #"primary-dark, primary-darker
+      content : "abc"    
   

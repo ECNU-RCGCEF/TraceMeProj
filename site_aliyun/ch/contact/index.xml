@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>联系我们 on TraceMe | Traceability analysis for model evaluation</title>
+    <link>https://ecnu-rcgcef.github.io/TraceMeProj/ch/contact/</link>
+    <description>Recent content in 联系我们 on TraceMe | Traceability analysis for model evaluation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; TraceMe 2020 </copyright>
+    
+	<atom:link href="https://ecnu-rcgcef.github.io/TraceMeProj/ch/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

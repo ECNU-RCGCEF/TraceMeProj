@@ -1,5 +1,5 @@
 ---
-title: "Our packages"
+title: "Packages"
 description: "Develop more available tools to facilitate ecosystem modelling"
 draft: false
 bg_image: "images/featue-bg.jpg"

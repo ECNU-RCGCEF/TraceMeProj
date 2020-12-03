@@ -4,18 +4,27 @@ banner:
   bg_image : "images/traceme_als.jpg"
   bg_overlay : true
   title : "TraceMe"
-  content : "Traceabiliby analysis system for model evaluation"
+  content : "基于溯源性分析方法的模型评估系统"
   button:
     enable : true
-    label : "Get Started Now"
-    link : "http://traceme.org.cn/"
+    label : "探索一下"
+    link : "http://traceme.org.cn/index.php/search/form"
 
 ############################# About #################################
 about:
   enable : true
-  title : "About Us"
-  description : "Traceability analysis"
-  content : "Introduction about traceability?"
+  title : "关于我们"
+  description : "溯源性分析研究小组"
+  content : "全球气候变化背景下，地球科学的发展使得地球系统模型结构更加丰富和观测数据量爆炸式的增加。
+  然而，不同模型模拟存在巨大的不确定性，这就要求模型评估能够更加系统和全面。
+  更复杂的模型结构和浩繁的数据量对当前的模型评估提出了新的挑战，
+  其中一个挑战是模型评估方法需要能够从复杂的模型结构中溯源出不同模型间的不确定性来源；
+  另一个挑战是不同模型组分之间的不确定性是具有一定传递关系的，需要能够量化出组分间的不确定性。
+  为了更好地理解和探索模型估计的不确定性，模型评估需要新的评估方法和全面的观测数据集来溯源和量化模型估计的不确定性的来源。
+  针对模型评估面临新的挑战，本研究组致力于发展新的基于溯源性分析方法的模型评估系统（如左图所示溯源性分析方法框架）。
+  溯源性分析方法是基于矩阵化的方法来简化复杂的模型结构，并系统性反应出不同模拟组分结构上的关系。
+  借助溯源性分析方法，模型评估能够溯源出不确定性的结构性来源，并能量化不同估计组分对目标估计量的不确定性贡献。
+  "
   image : "images/traceability.png"
 
 
@@ -23,20 +32,23 @@ about:
 portfolio:
   enable : true
   bg_image : "images/homepage2.png"
-  title : "WE BELIEVE IN GREAT IDEAS"
-  content : "
-  model evaluation
+  title : "平台发展目标"
+  content : "模型评估是目前地球系统模型发展的重要方面，溯源性分析方法能够为其提供更加系统的分析框架。
+  基于这个分析框架，平台将在如下领域提供服务：
+
+  1. 发展和完善溯源性分析方法，并应用到模型评估中，使其更全面地为地球系统模型评估服务。
 
 
-  data-model integretion
+  2. 构建完整的数据集。通过收集已有的数据产品和开发新的技术方法构建出基于溯源性框架的观测数据集，
+  以提供系统的基准性分析。
 
 
-  model development
-   "
+  3. 数据-模型整合研究。构建完善的基于溯源性框架的观测数据集，结合数据同化方法，探索和量化模型参数和结构的不确定性。
+  "
   button:
     enable : true
-    label : "View Works"
-    link : "project"
+    label : "view more"
+    link : "packages"
 
 
 ############################# Service ############################

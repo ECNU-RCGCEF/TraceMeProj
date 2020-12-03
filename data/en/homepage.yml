@@ -8,14 +8,22 @@ banner:
   button:
     enable : true
     label : "Get Started Now"
-    link : "http://traceme.org.cn/"
+    link : "http://traceme.org.cn/index.php/search/form"
 
 ############################# About #################################
 about:
   enable : true
   title : "About Us"
-  description : "Traceability analysis"
-  content : "Introduction about traceability?"
+  description : "  Traceability analysis Group"
+  content : "Under the background of global climate change, the development of earth science makes the structure of earth system model more abundant and the amount of observed data explosively increase.
+However, there are huge uncertainties in different model simulations, which requires the model evaluation to be more systematic and comprehensive.
+More complex model structures and massive amounts of data present new challenges to current model evaluation,
+One of the challenges is that model evaluation methods need to be able to trace the sources of uncertainty between different models from complex model structures;
+Another challenge is that the uncertainty between the components of different models has a certain transitive relationship and it is necessary to be able to quantify the uncertainty between the components.
+In order to better understand and explore the uncertainty of model estimation, model estimation requires new assessment methods and comprehensive observational data sets to trace and quantify the sources of uncertainty of model estimation.
+In view of the new challenges faced by model evaluation, the research group is committed to developing a new model evaluation system based on traceability analysis method (as shown in the left figure).
+The traceability analysis method is based on the matrix method to simplify the complex model structure and systematically reflect the structural relations of different simulation components.
+By means of traceability analysis method, model evaluation can trace the structural sources of uncertainty and quantify the contribution of different estimation components to the uncertainty of the target estimator."
   image : "images/traceability.png"
 
 
@@ -23,20 +31,23 @@ about:
 portfolio:
   enable : true
   bg_image : "images/homepage2.png"
-  title : "WE BELIEVE IN GREAT IDEAS"
-  content : "
-  model evaluation
+  title : "Our Mission:"
+  content : "Model evaluation is an important aspect of the development of earth system models, and traceability analysis method can provide a more systematic analysis framework for it.
+  Based on this analytical framework, the platform will provide services in the following areas:
 
-
-  data-model integretion
-
-
-  model development
+  1. Develop and improve traceability analysis methods and apply them to model assessment to make them more comprehensive for earth system model assessment.
+ 
+ 
+  2. Build a complete data set.By collecting existing data products and developing new technical approaches to build observational data sets based on traceability framework,
+      To provide a baseline analysis of the system.
+ 
+ 
+  3. Data-model integration research.A complete observation data set based on traceability framework is constructed, and the uncertainty of model parameters and structure is explored and quantified in combination with data assimilation method.
    "
   button:
     enable : true
     label : "View Works"
-    link : "project"
+    link : "packages"
 
 
 ############################# Service ############################

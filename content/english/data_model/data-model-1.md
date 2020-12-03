@@ -8,6 +8,8 @@ category: "Model development"
 information:
   - label : "Name"
     info : "CMIP6"
+  - label : "Website"
+    info : "https://esgf-node.llnl.gov/projects/cmip6/"
 ---
 
 ## Introduction and traceME results

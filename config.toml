@@ -169,33 +169,9 @@ URL = ""
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "MIP"
-URL = "about"
-weight = 2
-hasChildren = true
-
-  [[Languages.en.menu.main]]
-  parent = "MIP"
-  name = "CMIP"
-  URL = "mip_cmip"
-  weight = 1
-
-  [[Languages.en.menu.main]]
-  parent = "MIP"
-  name = "LuMIP"
-  URL = "mip_lumip"
-  weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "MIP"
-  name = "C4MIP"
-  URL = "mip_c4mip"
-  weight = 3
-
-[[Languages.en.menu.main]]
 name = "Documents"
-URL = "blog"
-weight = 3
+URL = ""
+weight = 2
 hasChildren = true
 
   [[Languages.en.menu.main]]
@@ -223,17 +199,7 @@ hasChildren = true
   weight = 4
 
 [[Languages.en.menu.main]]
-name = "packages"
-URL = "packages"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "Publications"
-URL = "publications"
-weight = 5
-
-[[Languages.en.menu.main]]
-weight = 6
+weight = 3
 name = "Dataset"
 hasChildren = true
 
@@ -247,11 +213,23 @@ hasChildren = true
   name = "Observation data"
   URL = "data_obs"
 
+
+[[Languages.en.menu.main]]
+name = "packages"
+URL = "packages"
+weight = 4
+
+[[Languages.en.menu.main]]
+name = "Publications"
+URL = "publications"
+weight = 5
+
+
   
 [[Languages.en.menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 7
+weight = 6
 
 
 # footer menu
@@ -327,7 +305,7 @@ hasChildren = true
   weight = 3
 
 [[Languages.ch.menu.main]]
-name = "内容"
+name = "详细内容"
 URL = "blog"
 weight = 3
 hasChildren = true
